@@ -1,0 +1,62 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D5966C;
+    padding: 100px;
+}
+
+.footer p {
+    width: 522px;
+    font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    gap: 25px;
+}
+
+.social-media img {
+    height: 25px;
+}
+
+
+.social-media img {
+    width: 100%;
+    filter: brightness(0) saturate(100%);
+}
+
+.social-media img:hover {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(5%) saturate(0%) hue-rotate(321deg) brightness(106%) contrast(102%);
+}
+
+
+
+
+/*nest hub and laptop 1024px*/
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .footer {
+        padding: 3.125rem;
+    }
+
+
+    .footer p {
+        font-size: 1.187rem;
+        width: 28.125rem;
+        font-weight: 300;
+    }
+
+}
+
+/*surface pro 7 and tablets 912px*/
+
+@media screen and (max-width: 912px) and (max-height: 1368px) {
+    .footer {
+        padding: 3.75rem;
+    }
+
+    
+    .footer p {
+        font-size: 1.187rem;
+        width: 21.56rem;
+    }
+}

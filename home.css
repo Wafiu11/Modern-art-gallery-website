@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    height: 100vh;
+}
+
+.header-card{
+    
+    display: flex;
+    width: 100vw;
+    position: relative;
+}
+
+.black-background{
+    background-color: black;
+    height: 100%;
+    width: 450px;
+}
+
+.header-title{
+    position: absolute;
+    top: 179px;
+    left: 212px;
+    width: 380px;
+    height: 200px;
+    color: white;
+    
+}
+
+.hero-img{
+    background: url(./assets/desktop/image-hero@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 100%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    top: 169px;
+    left: -64px;
+}
+
+.header-content a{
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.buttom-anchor{
+    display: flex;
+    width: 15rem;
+    height: 3.75rem;
+}
+
+.buttom{
+    display: flex;
+    background-color: #151515;
+    font-family: cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    letter-spacing: .375;
+    border: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 2.5rem);
+}
+
+.buttom-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5966C;
+    width: 2.5rem;
+}
+
+.buttom-arrow img{
+    height: 1.5rem;
+    width: .625rem;
+}
+
+.buttom-anchor:hover .buttom{
+    background-color: #D5966C;
+}
+
+.buttom-anchor:hover .buttom-arrow {
+    background-color: #151515;
+}
+
+.text-m {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+
+/* footer-homepage */
+
+footer{
+    display: flex;
+    background-color: #151515;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+footer h2 {
+    color: #FFFFFF;
+    width: 170px;
+}
+
+footer p {
+    color: #FFFFFF;
+    width: 422px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img {
+    height: 25px;
+}
+
+.title-xl {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.title-l {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.title-m {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3.75rem;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.title-s {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-m {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.text-s {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+}
+
+/* media queries */
+
+/*nest hub and laptop 1024px*/
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .header-title {
+        top: 8.062rem;
+        left: 2.56rem;
+    }
+
+
+    .header-content {
+        top: 7.25rem;
+    }
+
+    .blackBackgrund {
+        width: 18.75rem;
+    }
+
+}
