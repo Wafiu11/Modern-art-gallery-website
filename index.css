@@ -7,7 +7,6 @@
     position: relative;
     display: flex;
     width: 100vw;
-
 }
 
 .blackBackgrund {
@@ -43,7 +42,7 @@
     position: relative;
     width: 350px;
     top: 169px;
-    left: -64px;
+    left: -30px;
 }
 
 .header-content a {
