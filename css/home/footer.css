@@ -19,7 +19,7 @@ footer p{
 .social-media{
     display: flex;
     gap: 20px;
-    
+    margin-right: 42.5px;
 }
 
 .social-media img{
